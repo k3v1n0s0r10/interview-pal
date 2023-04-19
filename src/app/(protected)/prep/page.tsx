@@ -1,5 +1,11 @@
-const Prep = () => {
-  return <div>Prep</div>;
-};
+"use client";
+import Conversation from "@/components/conversation";
 
-export default Prep;
+export default function Prep() {
+  console.log("page");
+  return (
+    <div>
+      <Conversation />
+    </div>
+  );
+}
